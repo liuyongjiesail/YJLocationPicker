@@ -14,6 +14,7 @@
 		ED2814FF1D75269D00D08CF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2814FD1D75269D00D08CF2 /* Main.storyboard */; };
 		ED2815011D75269D00D08CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2815001D75269D00D08CF2 /* Assets.xcassets */; };
 		ED2815041D75269D00D08CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2815021D75269D00D08CF2 /* LaunchScreen.storyboard */; };
+		ED9255211D755FBA00ABDF96 /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED9255201D755FBA00ABDF96 /* Address.plist */; };
 		ED9E8D961D75296500461E54 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9E8D911D75296500461E54 /* UIView+Frame.m */; };
 		ED9E8D971D75296500461E54 /* YJLocationPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9E8D931D75296500461E54 /* YJLocationPicker.m */; };
 		ED9E8D981D75296500461E54 /* YJToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9E8D951D75296500461E54 /* YJToolBar.m */; };
@@ -33,6 +34,7 @@
 		ED2815001D75269D00D08CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED2815031D75269D00D08CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED2815051D75269D00D08CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9255201D755FBA00ABDF96 /* Address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
 		ED9E8D901D75296500461E54 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		ED9E8D911D75296500461E54 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		ED9E8D921D75296500461E54 /* YJLocationPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLocationPicker.h; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 		ED2814E81D75269D00D08CF2 = {
 			isa = PBXGroup;
 			children = (
+				ED92551F1D755FA300ABDF96 /* Resource */,
 				ED9E8D8F1D75296500461E54 /* YJLocationPicker */,
 				ED2814F31D75269D00D08CF2 /* YJLocationPickerDemo */,
 				ED2814F21D75269D00D08CF2 /* Products */,
@@ -111,6 +114,14 @@
 				ED2814F51D75269D00D08CF2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED92551F1D755FA300ABDF96 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				ED9255201D755FBA00ABDF96 /* Address.plist */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		ED9E8D8F1D75296500461E54 /* YJLocationPicker */ = {
@@ -189,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED2815041D75269D00D08CF2 /* LaunchScreen.storyboard in Resources */,
+				ED9255211D755FBA00ABDF96 /* Address.plist in Resources */,
 				ED2815011D75269D00D08CF2 /* Assets.xcassets in Resources */,
 				ED2814FF1D75269D00D08CF2 /* Main.storyboard in Resources */,
 			);
