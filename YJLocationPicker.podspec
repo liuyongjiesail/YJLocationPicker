@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "5.0"
   s.source       = { :git => "https://github.com/liuyongjiesail/YJLocationPicker.git", :tag => "0.0.1" }
 
-  s.source_files  = 'YJLocationPicker/*.{h,m}', 'YJLocationPicker/**/*.{h,m}'
+  s.source_files  = 'YJLocationPicker/*.{h,m}'
   s.requires_arc = true
   s.dependency "Masonry"
 
