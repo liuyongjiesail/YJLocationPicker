@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://blog.csdn.net/yj_sail?viewmode=list"
   s.platform     = :ios, "5.0"
   s.ios.deployment_target = "5.0"
-  s.source       = { :git => "https://github.com/liuyongjiesail/YJLocationPicker.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/liuyongjiesail/YJLocationPicker.git", :tag => "0.0.2" }
 
   s.source_files  = 'YJLocationPicker/*.{h,m}'
   s.requires_arc = true
