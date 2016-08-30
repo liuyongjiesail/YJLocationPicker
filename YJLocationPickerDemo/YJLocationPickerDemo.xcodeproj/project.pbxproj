@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6395B64AE64772A3A5899A4F /* libPods-YJLocationPickerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4DF80615AFFA8C9A3ABB7D /* libPods-YJLocationPickerDemo.a */; };
+		ED2814F61D75269D00D08CF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2814F51D75269D00D08CF2 /* main.m */; };
+		ED2814F91D75269D00D08CF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2814F81D75269D00D08CF2 /* AppDelegate.m */; };
+		ED2814FC1D75269D00D08CF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2814FB1D75269D00D08CF2 /* ViewController.m */; };
+		ED2814FF1D75269D00D08CF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2814FD1D75269D00D08CF2 /* Main.storyboard */; };
+		ED2815011D75269D00D08CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2815001D75269D00D08CF2 /* Assets.xcassets */; };
+		ED2815041D75269D00D08CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2815021D75269D00D08CF2 /* LaunchScreen.storyboard */; };
+		ED9E8D961D75296500461E54 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9E8D911D75296500461E54 /* UIView+Frame.m */; };
+		ED9E8D971D75296500461E54 /* YJLocationPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9E8D931D75296500461E54 /* YJLocationPicker.m */; };
+		ED9E8D981D75296500461E54 /* YJToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9E8D951D75296500461E54 /* YJToolBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3767C89CBF4DD407959B4449 /* Pods-YJLocationPickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJLocationPickerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJLocationPickerDemo/Pods-YJLocationPickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4A4DF80615AFFA8C9A3ABB7D /* libPods-YJLocationPickerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJLocationPickerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D42D0FF5DE8D2DA9D77A60 /* Pods-YJLocationPickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJLocationPickerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJLocationPickerDemo/Pods-YJLocationPickerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		ED2814F11D75269D00D08CF2 /* YJLocationPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJLocationPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2814F51D75269D00D08CF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED2814F71D75269D00D08CF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED2814F81D75269D00D08CF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED2814FA1D75269D00D08CF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED2814FB1D75269D00D08CF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED2814FE1D75269D00D08CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED2815001D75269D00D08CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED2815031D75269D00D08CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED2815051D75269D00D08CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9E8D901D75296500461E54 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		ED9E8D911D75296500461E54 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		ED9E8D921D75296500461E54 /* YJLocationPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLocationPicker.h; sourceTree = "<group>"; };
+		ED9E8D931D75296500461E54 /* YJLocationPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJLocationPicker.m; sourceTree = "<group>"; };
+		ED9E8D941D75296500461E54 /* YJToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJToolBar.h; sourceTree = "<group>"; };
+		ED9E8D951D75296500461E54 /* YJToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJToolBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED2814EE1D75269D00D08CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6395B64AE64772A3A5899A4F /* libPods-YJLocationPickerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50C0F45092EDF8C487F7D55F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3767C89CBF4DD407959B4449 /* Pods-YJLocationPickerDemo.debug.xcconfig */,
+				D9D42D0FF5DE8D2DA9D77A60 /* Pods-YJLocationPickerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8373F1FCC618D8BD0C2B93A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A4DF80615AFFA8C9A3ABB7D /* libPods-YJLocationPickerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED2814E81D75269D00D08CF2 = {
+			isa = PBXGroup;
+			children = (
+				ED9E8D8F1D75296500461E54 /* YJLocationPicker */,
+				ED2814F31D75269D00D08CF2 /* YJLocationPickerDemo */,
+				ED2814F21D75269D00D08CF2 /* Products */,
+				50C0F45092EDF8C487F7D55F /* Pods */,
+				8373F1FCC618D8BD0C2B93A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED2814F21D75269D00D08CF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED2814F11D75269D00D08CF2 /* YJLocationPickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED2814F31D75269D00D08CF2 /* YJLocationPickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ED2814F71D75269D00D08CF2 /* AppDelegate.h */,
+				ED2814F81D75269D00D08CF2 /* AppDelegate.m */,
+				ED2814FA1D75269D00D08CF2 /* ViewController.h */,
+				ED2814FB1D75269D00D08CF2 /* ViewController.m */,
+				ED2814FD1D75269D00D08CF2 /* Main.storyboard */,
+				ED2815001D75269D00D08CF2 /* Assets.xcassets */,
+				ED2815021D75269D00D08CF2 /* LaunchScreen.storyboard */,
+				ED2815051D75269D00D08CF2 /* Info.plist */,
+				ED2814F41D75269D00D08CF2 /* Supporting Files */,
+			);
+			path = YJLocationPickerDemo;
+			sourceTree = "<group>";
+		};
+		ED2814F41D75269D00D08CF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED2814F51D75269D00D08CF2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED9E8D8F1D75296500461E54 /* YJLocationPicker */ = {
+			isa = PBXGroup;
+			children = (
+				ED9E8D901D75296500461E54 /* UIView+Frame.h */,
+				ED9E8D911D75296500461E54 /* UIView+Frame.m */,
+				ED9E8D921D75296500461E54 /* YJLocationPicker.h */,
+				ED9E8D931D75296500461E54 /* YJLocationPicker.m */,
+				ED9E8D941D75296500461E54 /* YJToolBar.h */,
+				ED9E8D951D75296500461E54 /* YJToolBar.m */,
+			);
+			name = YJLocationPicker;
+			path = ../YJLocationPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED2814F01D75269D00D08CF2 /* YJLocationPickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2815081D75269D00D08CF2 /* Build configuration list for PBXNativeTarget "YJLocationPickerDemo" */;
+			buildPhases = (
+				5504ED7C69093D3A0A6795C2 /* [CP] Check Pods Manifest.lock */,
+				ED2814ED1D75269D00D08CF2 /* Sources */,
+				ED2814EE1D75269D00D08CF2 /* Frameworks */,
+				ED2814EF1D75269D00D08CF2 /* Resources */,
+				1468F163841C00067D52C147 /* [CP] Embed Pods Frameworks */,
+				6B9D6EB09024D877D97A64AC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJLocationPickerDemo;
+			productName = YJLocationPickerDemo;
+			productReference = ED2814F11D75269D00D08CF2 /* YJLocationPickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED2814E91D75269D00D08CF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "刘永杰";
+				TargetAttributes = {
+					ED2814F01D75269D00D08CF2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B9842T9339;
+					};
+				};
+			};
+			buildConfigurationList = ED2814EC1D75269D00D08CF2 /* Build configuration list for PBXProject "YJLocationPickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED2814E81D75269D00D08CF2;
+			productRefGroup = ED2814F21D75269D00D08CF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED2814F01D75269D00D08CF2 /* YJLocationPickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED2814EF1D75269D00D08CF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2815041D75269D00D08CF2 /* LaunchScreen.storyboard in Resources */,
+				ED2815011D75269D00D08CF2 /* Assets.xcassets in Resources */,
+				ED2814FF1D75269D00D08CF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1468F163841C00067D52C147 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJLocationPickerDemo/Pods-YJLocationPickerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5504ED7C69093D3A0A6795C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B9D6EB09024D877D97A64AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJLocationPickerDemo/Pods-YJLocationPickerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED2814ED1D75269D00D08CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9E8D971D75296500461E54 /* YJLocationPicker.m in Sources */,
+				ED9E8D961D75296500461E54 /* UIView+Frame.m in Sources */,
+				ED2814FC1D75269D00D08CF2 /* ViewController.m in Sources */,
+				ED2814F91D75269D00D08CF2 /* AppDelegate.m in Sources */,
+				ED9E8D981D75296500461E54 /* YJToolBar.m in Sources */,
+				ED2814F61D75269D00D08CF2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED2814FD1D75269D00D08CF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED2814FE1D75269D00D08CF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED2815021D75269D00D08CF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED2815031D75269D00D08CF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED2815061D75269D00D08CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED2815071D75269D00D08CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED2815091D75269D00D08CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3767C89CBF4DD407959B4449 /* Pods-YJLocationPickerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YJLocationPickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sail.YJLocationPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED28150A1D75269D00D08CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9D42D0FF5DE8D2DA9D77A60 /* Pods-YJLocationPickerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YJLocationPickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sail.YJLocationPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED2814EC1D75269D00D08CF2 /* Build configuration list for PBXProject "YJLocationPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2815061D75269D00D08CF2 /* Debug */,
+				ED2815071D75269D00D08CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED2815081D75269D00D08CF2 /* Build configuration list for PBXNativeTarget "YJLocationPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2815091D75269D00D08CF2 /* Debug */,
+				ED28150A1D75269D00D08CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED2814E91D75269D00D08CF2 /* Project object */;
+}
