@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YJLocationPicker"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "一行代码实现省市区三级地区选择功能"
   s.homepage     = "https://github.com/liuyongjiesail/YJLocationPicker"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
