@@ -4,6 +4,8 @@
 你可以在 Podfile 中加入下面一行代码来使用YJLocationPicker
     
     pod 'YJLocationPicker'
+    
+完成后需将demo中Resource资源文件Address.plist拖入您的工程中    
 #示例代码
 //选择地区按钮
 - (IBAction)selectAction:(UIButton *)sender {
