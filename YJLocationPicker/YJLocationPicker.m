@@ -184,7 +184,9 @@ static CGFloat const PickerViewHeight = 240;
         
         town = @"";
     }
-    self.selectedLocation(@[province, city, town]);
+    if(province && city && town){
+        self.selectedLocation(@[province, city, town]);
+    }
     [self remove];
 }
 
