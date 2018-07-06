@@ -1,5 +1,8 @@
 # YJLocationPicker
 一行代码实现省市区三级地区选择功能
+
+![image](https://raw.githubusercontent.com/liuyongjiesail/YJLocationPicker/master/animation.gif)
+
 # CocoaPods支持
 你可以在 Podfile 中加入下面一行代码来使用YJLocationPicker
     
