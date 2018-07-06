@@ -172,7 +172,7 @@
 				TargetAttributes = {
 					ED2814F01D75269D00D08CF2 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = B9842T9339;
+						DevelopmentTeam = KHLH5L8799;
 					};
 				};
 			};
@@ -381,6 +381,7 @@
 			baseConfigurationReference = 3767C89CBF4DD407959B4449 /* Pods-YJLocationPickerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KHLH5L8799;
 				INFOPLIST_FILE = YJLocationPickerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -394,6 +395,7 @@
 			baseConfigurationReference = D9D42D0FF5DE8D2DA9D77A60 /* Pods-YJLocationPickerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KHLH5L8799;
 				INFOPLIST_FILE = YJLocationPickerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
