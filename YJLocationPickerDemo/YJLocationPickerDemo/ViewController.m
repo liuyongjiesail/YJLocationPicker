@@ -27,7 +27,7 @@
         //array里面放的是省市区三级
         NSLog(@"%@", locationArray);
         //拼接后给button赋值
-        [sender setTitle:[[locationArray[0] stringByAppendingString:locationArray[1]] stringByAppendingString:locationArray[2]]forState:UIControlStateNormal];
+        [sender setTitle:[locationArray componentsJoinedByString:@""] forState:UIControlStateNormal];
         
     }] show];
     

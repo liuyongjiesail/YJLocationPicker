@@ -198,7 +198,11 @@ static CGFloat const PickerViewHeight = 240;
     NSString *town;
     if (self.townArray.count != 0) {
         
-        town = [self.townArray objectAtIndex:[self.pickerView selectedRowInComponent:2]];
+        NSInteger index = [self.pickerView selectedRowInComponent:2];
+        if (index > self.townArray.count - 1) {
+            index = self.townArray.count - 1;
+        }
+        town = [self.townArray objectAtIndex:index];
         
     } else {
         
